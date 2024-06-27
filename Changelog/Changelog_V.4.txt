@@ -1,0 +1,70 @@
+
+Project Name:  Volgh - HTML5 Bootstrap Admin Template
+
+Version : V.4
+
+Updated-date:  24-April-2023
+
+ 
+Updates :- 
+
+    1. Some plugins are Added while some have been updated.
+    2. Edit-table html page is added.
+    3. UI issues are fixed.
+    4. Switcher Styles are Updated.
+    5. Updated Documentation.
+
+***********************************************************************************************************************************************************************************************
+
+----------------------------------------------------------------------
+1. Some plugins are Added while some have been updated.
+----------------------------------------------------------------------
+
+    1. Some plugins are Added. So, please add below file in plugins folder (Rootpath: assets/plugins/).
+
+        1.edit-table
+        2.fancyuploder
+        3.jquery-steps
+        4.parsleyjs
+
+    2.Some plugins are updated. So, please replace complete plugins folder (Rootpath: assets/plugins).
+
+----------------------------------------------------------------------
+2. Edit-table html page is added.
+----------------------------------------------------------------------
+
+	Please add below html page.
+	
+	1. edit-table.html (Rootpath: HTML/).
+
+----------------------------------------------------------------------
+3. UI issues are fixed.
+----------------------------------------------------------------------
+
+	Please replace complete assets folder.
+
+----------------------------------------------------------------------
+4. Switcher Styles are Updated.
+----------------------------------------------------------------------
+	Note:- Only for Switcher users
+
+    Double Menu and Double Menu with Tabs sidemenu styles are added.
+
+    Follow the below steps:
+
+    1. Create custom-switcher.js file (Rootpath: assets/js/) then move all the switcher styles from custom.js(Rootpath: assets/js/) file to custom-switcher.js file.
+
+    2. Add _double-menu-styles.scss and _double-menu-tabs.scss files (Rootpath:assets/scss/sidemenu/) in assets folder. So, please replace assets folder then run the gulp.
+
+    3. Replace sidemenu.js file (Rootpath: assets/plugins/sidemenu/) in plugins folder.
+
+    4. Replace app-sidebar section in all html pages (Rootpath: HTML/).
+
+--------------------------------------------------------------------------
+5. Updated Documentation.
+--------------------------------------------------------------------------
+	Documentation is updated so please go through it.
+
+
+Thanking you,
+@spruko.
